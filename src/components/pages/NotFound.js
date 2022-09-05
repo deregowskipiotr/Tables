@@ -1,9 +1,11 @@
-import styles from './NotFound.module.scss';
+
 
 
 const NotFound = () => {
   return (
-    <h2 className={styles.title}>Upsss</h2>
+    <div>
+      <h1>Something went wrong</h1>
+    </div>
   )
 }
 

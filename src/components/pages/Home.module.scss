@@ -1,24 +1,7 @@
 @import '../../styles/settings.scss';
 
-.home {
-  padding: $base-size;
-}
 
 .title {
-  padding: ($base-size * 3) 0;
-  text-align: center;
-  font-size: ($base-size * 3);
-  text-transform: uppercase;
-}
-
-.subtitle {
-  padding: ($base-size * 2) 0;
-  text-align: center;
-  font-size: ($base-size * 2);
-  font-style: italic;
-  font-weight: normal;
-}
-
-.title+.subtitle {
-  margin-top: (- $base-size * 3);
+  margin-bottom: 20px;
+  margin-left: 180px;
 }
